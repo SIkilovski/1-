@@ -7,22 +7,22 @@ int main() {
 	int tupe;
 	char form;
 	setlocale(0, "");
-	cout << "[+] ôèãóðû" << endl;
-	cout << "[1] ëèíèÿ" << endl;
+	cout << "[+] Ã´Ã¨Ã£Ã³Ã°Ã»" << endl;
+	cout << "[1] Ã«Ã¨Ã­Ã¨Ã¿" << endl;
 	cin >> figyra;
 	if (figyra == 1) {
-		cout << "[+] Ôèãóðà: “Ëèíèÿ”" << endl;
-		cout << "[1] Ãîðèçîíòàëüíàÿ" << endl;
-		cout << "[2] Âåðòèêàëüíàÿ" << endl;
+		cout << "[+] Ã”Ã¨Ã£Ã³Ã°Ã : â€œÃ‹Ã¨Ã­Ã¨Ã¿â€" << endl;
+		cout << "[1] ÃƒÃ®Ã°Ã¨Ã§Ã®Ã­Ã²Ã Ã«Ã¼Ã­Ã Ã¿" << endl;
+		cout << "[2] Ã‚Ã¥Ã°Ã²Ã¨ÃªÃ Ã«Ã¼Ã­Ã Ã¿" << endl;
 		cin >> tupe;
 	}
 	else {
 		cout << "ERROR" << endl;
 	}
 	if (tupe == 1) {
-		cout << "ââåäèòå äëèííó: ";
+		cout << "Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¤Ã«Ã¨Ã­Ã­Ã³: ";
 		cin >> negta;
-		cout << "Òåêñòóðà ëèíèè: ";
+		cout << "Ã’Ã¥ÃªÃ±Ã²Ã³Ã°Ã  Ã«Ã¨Ã­Ã¨Ã¨: ";
 		cin >> tupe;
 		int i = 0;
 		while (i < negta) {
@@ -31,9 +31,9 @@ int main() {
 		}
 	}
 	else if (tupe == 2) {
-		cout << "ââåäèòå äëèííó: ";
+		cout << "Ã¢Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¤Ã«Ã¨Ã­Ã­Ã³: ";
 		cin >> negta;
-		cout << "Òåêñòóðà ëèíèè: ";
+		cout << "Ã’Ã¥ÃªÃ±Ã²Ã³Ã°Ã  Ã«Ã¨Ã­Ã¨Ã¨: ";
 		cin >> tupe;
 		int j = 0;
 		while (j < negta) {
